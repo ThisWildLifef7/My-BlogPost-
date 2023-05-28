@@ -67,6 +67,12 @@
     padding: 20px;
 }
 
+.list a:hover {
+    font-weight: bold;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
 a {
     color: black;
 }
