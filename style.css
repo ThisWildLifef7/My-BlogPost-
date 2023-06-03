@@ -6,10 +6,10 @@
     text-decoration: none;
     font-family: 'Figtree', sans-serif;
 }
-
+/* Bloque header */
 .header {
     text-align: center;
-    width: 100%;
+    width: 100;
     height: 5rem;
     display: flex;
     align-items: center;
@@ -37,12 +37,13 @@
     width: 30rem;
     font-size: 20px;
 }
-
+/* Bloque main */
 .main {
     font-family: 'Arial';
+    height: 47rem;
 }
 
-.container {
+.container-main {
     width: 70%;
     margin: 20px auto;
     text-align: left;
@@ -65,6 +66,22 @@
     font-size: 20px;
     margin-top: 20px;
     padding: 20px;
+    text-align: justify;
+}
+
+/* Bloque footer */
+.footer {
+    background-color: bisque;
+    height: 5.6rem;
+}
+
+.container-foot {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .list a:hover {
