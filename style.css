@@ -61,6 +61,15 @@
     margin-left: 20px;
 }
 
+.card-image {
+    width: 3rem;
+    margin-right: 10px;
+}
+
+.img {
+    width: 100%;
+}
+
 .post {
     font-size: 20px;
     margin-top: 20px;
